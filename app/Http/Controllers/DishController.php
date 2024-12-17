@@ -46,6 +46,9 @@ class DishController extends Controller
             'user_id' => Auth::user()->id,
         ]);
 
+        $choosenCategories =  $request->categories;
+        $dish->categories()->attach($choosenCategories);
+
         return redirect(route('welcome'));
     }
 

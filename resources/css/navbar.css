@@ -1,6 +1,6 @@
 .topNav{
-    height: 100px;
-    background-color: red ;
+    height: 80px;
+    background-color: #DF0613;
     color: white;
 }
 .topNav h1{
@@ -14,9 +14,15 @@
 }
 .subNav{
     height: 50px;
-    background-color: yellow;
 }
-.subNav a {
+.navTextIcon{
+    font-family: 'Swiss 721', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
     text-decoration: none;
-    font-weight: 650;
+    color: black;   
 }
+
+.titolone {
+    font-family: 'Base Neue Bold', sans-serif;
+    }

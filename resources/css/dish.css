@@ -1,0 +1,60 @@
+.categoryBox {
+    position: relative;
+    height: 150px;
+    color: rgb(212, 255, 0);
+}
+.traduzione {
+    font-family: 'Swiss 721', sans-serif;
+}
+.title {
+    font-family: 'Swiss 721', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 40px;
+    color: rgb(212, 255, 0);
+    text-shadow: 5px 5px #6a6a6a;
+}
+.ideogramma {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    position: absolute;
+    top: 95px;
+    color: rgb(212, 255, 0);
+    text-shadow: 5px 5px #6a6a6a;
+}
+.tag {
+    font-family: 'Swiss 721', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    width: 50px;
+    padding-left: 4px;
+    border-bottom: 2px solid rgb(1, 202, 1);
+}
+
+.titoloDescrizione {
+    width: 230px;
+}
+.dishName {
+    font-family: 'Swiss 721', sans-serif;
+    font-weight: 800;
+}
+.description {
+    font-family: 'Swiss 721', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+.price {
+    font-family: 'Swiss 721', sans-serif;
+    font-weight: 600;
+}
+.allergeni {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+

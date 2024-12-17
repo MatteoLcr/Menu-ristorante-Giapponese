@@ -1,3 +1,19 @@
+/* PER LE SCRITTE IN GIAPPONESE */
+.noto-sans-tc-regular {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.noto-sans-tc-bold {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+/* PER LE SCRITTE IN ITALIANO */
+
+
 a {
     text-decoration: none;
 }
