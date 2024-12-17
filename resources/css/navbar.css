@@ -1,0 +1,22 @@
+.topNav{
+    height: 100px;
+    background-color: red ;
+    color: white;
+}
+.topNav h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.topNav h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.subNav{
+    height: 50px;
+    background-color: yellow;
+}
+.subNav a {
+    text-decoration: none;
+    font-weight: 650;
+}
