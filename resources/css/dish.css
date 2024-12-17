@@ -30,7 +30,7 @@
     font-family: 'Swiss 721', sans-serif;
     font-size: 12px;
     font-weight: 100;
-    width: 50px;
+    
     padding-left: 4px;
     border-bottom: 2px solid rgb(1, 202, 1);
 }
@@ -58,3 +58,50 @@
 }
 
 
+
+
+.title2 {
+    font-family: 'Swiss 721', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 40px;
+    color: black;
+    text-shadow: 5px 5px #fe7723;
+}
+.ideogramma2 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    position: absolute;
+    top: 95px;
+    color: black;
+    text-shadow: 5px 5px #fe7723;
+}
+
+
+.sfondo3{
+    background-color: #FB9896;
+}
+.title3 {
+    font-family: 'Swiss 721', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 40px;
+    color: black;
+    text-shadow: 5px 5px #ffffff;
+}
+.ideogramma3 {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    position: absolute;
+    top: 95px;
+    color: black;
+    text-shadow: 5px 5px #ffffff;
+}

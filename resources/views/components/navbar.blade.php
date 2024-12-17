@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <div class="row d-none">
+    <div class="row">
         <div class="col-12">
             <div class="d-flex justify-content-evenly align-items-center">
                 <a href="{{route('login')}}">Login</a>
