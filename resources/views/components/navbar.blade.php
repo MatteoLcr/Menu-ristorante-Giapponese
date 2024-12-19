@@ -41,4 +41,13 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-12">
+            <form action="{{route('dish.search')}}" method="GET" class="d-flex" role="search">
+                <input class="form-control me-2" type="search" name="query" placeholder="cerca fra gli articoli..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+        </div>
+    </div>
+
 </div>

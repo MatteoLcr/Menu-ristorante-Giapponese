@@ -6,10 +6,11 @@ use App\Models\Category;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use App\Models\User;
+use Laravel\Scout\Searchable;
 
 class Dish extends Model
 {
-    use HasFactory;
+    use HasFactory, Searchable;
 
     protected $fillable = [
         'name',
@@ -19,6 +20,16 @@ class Dish extends Model
         'allergeni',
         'user_id',
     ];
+
+    public function toSearchableArray(){
+        return  [
+            'id' => $this->id,
+            'name' => $this->name,
+            'description' => $this->description,
+            'tag' => $this->tag,
+            'category' => $this->category
+        ];
+    }
 
     public function user(){
         return $this->belongsTo(User::class);

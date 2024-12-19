@@ -52,6 +52,13 @@ class DishController extends Controller
         return redirect(route('welcome'));
     }
 
+    public function dishSearch(Request $request)
+    {
+        $query = $request->input('query');
+        $dishes = Dish::search($query)->orderBy('created_at', 'desc')->get();
+        return view('dish.search-index', compact('dishes', 'query'));
+    }
+
     /**
      * Display the specified resource.
      */

@@ -1,6 +1,6 @@
 <x-layout>
-    <div class="container">
 
+    <div class="container">
         <div class="row">
             @foreach($categories as $category)
 
@@ -24,7 +24,7 @@
                         </div>
                         <h5 class="price">{{$dish->price}} €</h5>
                         <h5 class="material-symbols-outlined">favorite</h5>
-                    </div> 
+                    </div>
                 </div>
                 @endforeach
             </div>
@@ -49,7 +49,7 @@
                         </div>
                         <h5 class="price">{{$dish->price}} €</h5>
                         <h5 class="material-symbols-outlined">favorite</h5>
-                    </div> 
+                    </div>
                 </div>
                 @endforeach
             </div>
@@ -74,12 +74,12 @@
                         </div>
                         <h5 class="price">{{$dish->price}} €</h5>
                         <h5 class="material-symbols-outlined">favorite</h5>
-                    </div> 
+                    </div>
                 </div>
                 @endforeach
             </div>
             @endif
-            
+
 
 
             @endforeach
