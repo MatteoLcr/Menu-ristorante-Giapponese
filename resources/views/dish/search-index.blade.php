@@ -7,7 +7,7 @@
             </div>
             <div class="col-12">
                 @foreach($dishes as $dish)
-                <div class="col-12 p-2 pe-4 mb-3 text-white">
+                <div class="col-12 p-2 pe-4 mb-3 text-dark">
                     <span class="mb-0 tag">{{$dish->tag}}</span>
                     <div class="d-flex justify-content-between align-items-start">
                         <div class="d-flex flex-column titoloDescrizione">
